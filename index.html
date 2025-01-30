@@ -6,8 +6,10 @@
     <title>Spotify Imersão</title>
 
 
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/assets/styles/var.css">
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +23,7 @@
         <nav class="sidebar__navigation">
             <div class="logo">
                 <a href="">
-                    <img src="./assets/icons/logo-spotify.png" alt="Logo da Spotify branco">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="Logo da Spotify branco">
                 </a>
             </div>
                     <ul>
@@ -77,6 +79,36 @@
                 </div>
             </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="Seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="./src/assets/icons/small-right (1).png" alt="Seta direita">
+                    </button>
+                </div>
+
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input id="search__input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+            </nav>
+
+            <div class="main__content">
+                <h1 class="main__title">Navegar por todas as seções</h1>
+            </div>
+        </div>
+    </main>
+
     <footer class="disclaimer-premium">
             <div class="text">
                 <p class="disclaimer-premium__title">Testar o Premium de graça</p>
